@@ -18,7 +18,7 @@ function finalgrade(practice, theoretical){
 
 /*finalgrade(12,13);*/
 
-ex 6
+//ex 6
 function month(NumMonth){
     if (NumMonth == 1){
     console.log("Janeiro")
@@ -100,9 +100,36 @@ function multiples(multiple, limit){
 /*multiples(5, 20);*/
 
 //ex 9
-
-var soma = 0;
-for(var i=0, i <= 100, i++){
+/*function somatotal() {
+    var soma = 0;
+    for(var i=0, i <= 100, i++){
     soma += i,
-}
+    }
     return soma 
+}*/
+
+//ex 11
+
+function min(array) {
+    var minV = array[0];
+    for(let i = 1; i < array.legth; i++) {
+        if(array[i] < minV){
+            minV = array[i];
+        }
+    }
+    return minV;
+}
+function max(array) {
+    var maxV = array[0];
+    for(let i = 1; i < array.legth; i++) {
+        if(array[i] > maxV){
+            maxV = array[i];
+        }
+    }
+    return maxV;
+}
+
+max(array);
+min(array);
+
+var array = [7, 9, 11, 2, 3];
