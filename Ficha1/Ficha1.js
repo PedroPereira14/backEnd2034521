@@ -3,7 +3,7 @@
 
 //ex 5
 
-/*function finalgrade(practice, theoretical){
+function finalgrade(practice, theoretical){
     var final = practice * 0.7 + theoretical * 0.3;
 
     console.log("A sua nota foi " + final )
@@ -16,9 +16,9 @@
     }
 }
 
-finalgrade(12,13);*/
+/*finalgrade(12,13);*/
 
-/*ex 6
+ex 6
 function month(NumMonth){
     if (NumMonth == 1){
     console.log("Janeiro")
@@ -60,33 +60,49 @@ function month(NumMonth){
         console.log("Não existe")
     }
 }
-month(13)*/
+/*month(13)*/
 
 //ex7
 function result(sum1, op, sum2){
     if (op == '+') {
         console.log("A soma é igual a ", sum1 + sum2);
-        return(sum1 + sum2);
+        return sum1 + sum2;
     }
     else if (op == '-') {
         console.log("A subtração foi ", sum1 - sum2);
-        return(sum1 - sum2);
+        return sum1 - sum2;
     }
     else if (op == '*') {
         console.log("A subtração foi ", sum1 * sum2);
-        return(sum1 * sum2);
+        return sum1 * sum2;
     }
     else if (op == '/') {
         console.log("A divisão foi ", sum1 / sum2);
-        return(sum1 / sum2);
+        return sum1 / sum2;
     }
 }
- result(12, '+', 13);
+ /*result(12, '+', 13);
  result(12, '-', 13);
  result(12, '*', 13);
- result(12, '/', 13);
+ result(12, '/', 13);*/
 
  //ex 8
 
+var y = 0
+function multiples(multiple, limit){
+    var result = 0;
+    while (result < limit) {
+        result+=multiple;
+        console.log(result);
+    }
+}
 
+/*multiples(5, 20);*/
 
+//ex 9
+
+var soma = 0;
+for(var i=0, i <= 100, i++){
+    soma += i,
+}
+    return soma 
