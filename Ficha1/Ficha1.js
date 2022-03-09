@@ -63,26 +63,30 @@ function month(NumMonth){
 month(13)*/
 
 //ex7
-/*function result(sum1, op, sum2){
+function result(sum1, op, sum2){
     if (op == '+') {
         console.log("A soma é igual a ", sum1 + sum2);
+        return(sum1 + sum2);
     }
     else if (op == '-') {
         console.log("A subtração foi ", sum1 - sum2);
+        return(sum1 - sum2);
     }
     else if (op == '*') {
         console.log("A subtração foi ", sum1 * sum2);
+        return(sum1 * sum2);
     }
     else if (op == '/') {
         console.log("A divisão foi ", sum1 / sum2);
+        return(sum1 / sum2);
     }
 }
  result(12, '+', 13);
  result(12, '-', 13);
  result(12, '*', 13);
- result(12, '/', 13);*/
+ result(12, '/', 13);
 
  //ex 8
 
- 
+
 
