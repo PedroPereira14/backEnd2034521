@@ -19,3 +19,18 @@ var final = imc(120, 1.68);
 /*console.log(final);*/
 
 //ex2
+function reverse(str){
+    var splittedStr = str.split(" ");
+    var reversedStr = "";
+    for (let j = 0; j < splittedStr.length; j++){
+        var word = splittedStr[j];
+        for (var i = word.length - 1; i >= 0; i--) {
+            reversedStr += word[i];
+        }
+    }
+    return reversedStr; 
+
+}
+
+var str = reverse("Hoje é Domingo");
+console.log(str);
