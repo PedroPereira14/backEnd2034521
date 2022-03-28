@@ -141,10 +141,6 @@ var student2 = {
     grade: 15
 };
 
-for (let i = 0; i < 10; i++){
-    var student
-}
-
 var students = [];
 
 students.push(student1);
@@ -248,4 +244,4 @@ function main(students, option){
             break;
     }
 }
-main(students, 6);
+main(students, 2);
